@@ -1,15 +1,17 @@
 "use client"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Users, GraduationCap, UserCheck, Users2, Trophy, Search } from "lucide-react"
+import { Users, GraduationCap, UserCheck, Users2, Trophy, Search, Home, BarChart3 } from "lucide-react"
 
 const menuItems = [
-  { name: "Aluno", icon: Users, href: "/alunos" },
-  { name: "Professor", icon: GraduationCap, href: "/professores" },
-  { name: "Matrícula", icon: UserCheck, href: "/matriculas" },
-  { name: "Turma", icon: Users2, href: "/turmas" },
-  { name: "Modalidade", icon: Trophy, href: "/modalidades" },
-  { name: "Consulta", icon: Search, href: "/consulta" },
+  { name: "Home", icon: Home, href: "/admin/dashboard" },
+  { name: "Aluno", icon: Users, href: "/admin/alunos/cadastro" },
+  { name: "Professor", icon: GraduationCap, href: "/admin/professores/cadastro" },
+  { name: "Matrícula", icon: UserCheck, href: "/admin/matriculas" },
+  { name: "Turma", icon: Users2, href: "/admin/turmas/cadastro" },
+  { name: "Modalidade", icon: Trophy, href: "/admin/modalidades/cadastro" },
+  { name: "Nível", icon: BarChart3, href: "/admin/niveis/cadastro" },
+  { name: "Consulta", icon: Search, href: "/admin/consulta" },
 ]
 
 export function Sidebar() {

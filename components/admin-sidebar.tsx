@@ -5,12 +5,12 @@ import { Home, Users, GraduationCap, UserCheck, Users2, Trophy, Search, LogOut, 
 
 const menuItems = [
   { name: "Home", icon: Home, href: "/admin/dashboard" },
-  { name: "Aluno", icon: Users, href: "/admin/alunos" },
-  { name: "Professor", icon: GraduationCap, href: "/admin/professores" },
+  { name: "Aluno", icon: Users, href: "/admin/alunos/cadastro" },
+  { name: "Professor", icon: GraduationCap, href: "/admin/professores/cadastro" },
   { name: "Matrícula", icon: UserCheck, href: "/admin/matriculas" },
-  { name: "Turma", icon: Users2, href: "/admin/turmas" },
-  { name: "Modalidade", icon: Trophy, href: "/admin/modalidades" },
-  { name: "Nível", icon: BarChart3, href: "/admin/niveis" },
+  { name: "Turma", icon: Users2, href: "/admin/turmas/cadastro" },
+  { name: "Modalidade", icon: Trophy, href: "/admin/modalidades/cadastro" },
+  { name: "Nível", icon: BarChart3, href: "/admin/niveis/cadastro" },
   { name: "Consulta", icon: Search, href: "/admin/consulta" },
 ]
 
